@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="script.js" defer /></script>
+    <link rel="stylesheet" href="/style.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
+    </head>
+  <body>
+    <div id="root">
+      <section class="homepage">
+        <div class="home">
+          <div class="title-btn">
+            <h1 class="title">hi, i'm <span class="name">ben</span></h1>
+            <h1 class="position">web developer and UX designer</h1>
+            <a href="#portfolio-page" class="link-to"
+              ><button class="btn">view my work</button></a
+            >
+          </div>
+        </div>
+      </section>
+      <div class="about-nav">
+        <div class="nav home-nav">home</div>
+        <div class="nav about-nav"><a href='#about-page' class="link-to">about</a></div>
+        <div class="nav portfolio-nav">
+          <a class="link-to" href="#portfolio-page">portfolio</a>
+        </div>
+        <div class="nav contact-nav"><a href="#contact" class="link-to">contact</a></div>
+      </div>
+      <section id="about-page">
+        
+        <div class="about">
+          
+          <div class="about-content">
+            <div class="top-half">
+              <div class="headshot">
+                <img class="headshot-img" src="/src/headshot.jpeg" alt="" />
+              </div>
+              <div class="about-intro">
+                <p class="intro-text">
+                  Hello! I am a digital media student at Davidson Davie
+                  Community College currently getting my associates, apart from
+                  that I am teaching myself the ins and outs of
+                  <span class="name">web development</span>
+                  and <span class="name">user experience design.</span>
+                  <span id="misc">
+                    Other miscellaneous activities include music production,
+                    horticulture and film making.</span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="bottom-half">
+              <h1>My ever growing tech stack:</h1>
+              <div class="tech-cards">
+                <div class="card-head">languages</div>
+                <div class="card-body">
+                  <i id="svgs" class="devicon-javascript-plain colored"></i>
+                  <img
+                    style="height: 50px"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  />
+                  <img
+                    style="height: 50px"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                  />
+                  <img
+                    style="height: 50px"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                  />
+                </div>
+              </div>
+              <div class="tech-cards">
+                <div class="card-head">frontend</div>
+                <div class="card-body">
+                  <i class="devicon-react-original colored"></i>
+                  <i class="devicon-tailwindcss-plain colored"></i>
+                </div>
+              </div>
+              <div class="tech-cards">
+                <div class="card-head">backend</div>
+                <div class="card-body">
+                  <i class="devicon-nodejs-plain colored"></i
+                  ><img
+                    style="height: 50px"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
+                  />
+
+                  <i class="devicon-jest-plain"></i>
+
+                  <i class="devicon-django-plain-wordmark"></i>
+
+                  <i class="devicon-flask-original-wordmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio-page">
+        <div class="portfolio">
+          <div class="portfolio-header">Portfolio</div>
+          <div class="portfolio-list">
+            <div class="portfolio-item">
+              Websites
+                <a href="websites.html">
+                <img class="port" src="/src/img/weather.png" alt="" srcset="" />
+              </a>
+            </div>
+
+            <div class="portfolio-item">
+              Videography
+                <a
+                  href="https://gizziproductions.com/southern-lacrosse-showdown/"
+                  ><img class="port" src="/src/img/videography.png" alt="" srcset=""
+                /></a>
+            </div>
+
+            <div class="portfolio-item">
+              Photography
+                <a href="photography.html"><img class='port' src="/src/img/fleeting.JPG" alt="" srcset="" /></a>
+            </div>
+
+            <div class="portfolio-item digital">
+              Art Pieces
+                <img class="port digital" src="/src/img/bicylce-driveby.jpg" alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact-page">
+          <div class="contact">
+            <div class="headr">Contact me</div>
+            <div class="contact-form">
+              <label for="email">Email:</label>
+              <input type="email" />
+            </div>
+            <div class="contact-form">
+              <label for="message">Message:</label>
+              <input type="text" ></input>
+            </div>
+            <div class="submit">
+              <button class="submit-btn">submit</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="socials"><div class="socials-page">
+        <a class="social" href="https://www.linkedin.com/in/ben-beaver-b0bab4251/"><svg class='social' xmlns="http://www.w3.org/2000/svg" fill='white' height="4em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+        <a class="social" href="https://github.com/TheBenster"><svg class="social" xmlns="http://www.w3.org/2000/svg" fill='white' height="4em" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
+      </div></section>
+    </div>
+      
+  </body>
+</html>
