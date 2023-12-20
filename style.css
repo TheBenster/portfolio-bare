@@ -239,6 +239,8 @@ input[type="text"] {
   border-radius: 15px;
   height: 30px;
   font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
 }
 @media only screen and (max-width: 900px) {
   .title {
@@ -362,4 +364,7 @@ input[type="text"] {
 
 .social:not(:hover) {
   transition-duration: 0.4s;
+}
+
+.submit-btn {
 }

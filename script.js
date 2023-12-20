@@ -24,3 +24,4 @@ function highlightNavLink() {
 window.addEventListener("scroll", highlightNavLink);
 
 highlightNavLink();
+

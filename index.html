@@ -29,7 +29,7 @@
         </div>
         <div class="nav contact-nav"><a href="#contact" class="link-to">contact</a></div>
       </div>
-      <section id="about-page">
+      <section name="about" id="about-page">
         
         <div class="about">
           
@@ -99,7 +99,7 @@
           </div>
         </div>
       </section>
-      <section id="portfolio-page">
+      <section name='portfolio' id="portfolio-page">
         <div class="portfolio">
           <div class="portfolio-header">Portfolio</div>
           <div class="portfolio-list">
@@ -136,15 +136,16 @@
             <div class="headr">Contact me</div>
             <div class="contact-form">
               <label for="email">Email:</label>
-              <input type="email" />
+              <input pattern="[^ @]*@[^ @]*" required type="email" />
             </div>
-            <div class="contact-form">
+            <form class="contact-form">
               <label for="message">Message:</label>
               <input type="text" ></input>
+              <div class="submit">
+              <button value="submit" class="submit-btn">submit</button>
             </div>
-            <div class="submit">
-              <button class="submit-btn">submit</button>
-            </div>
+            </form>
+            
           </div>
         </div>
       </section>
