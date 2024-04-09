@@ -12,7 +12,9 @@ body {
   padding: 0;
   margin: 0;
 }
-
+.nav.blog {
+  margin-right: 10px;
+}
 .home {
   display: flex;
   align-items: center;
@@ -339,6 +341,7 @@ input[type="text"] {
     height: 100%;
     width: auto;
   }
+
   /* .portfolio-item {
     height: 50%;
     padding-bottom: 0;
