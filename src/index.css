@@ -267,6 +267,9 @@ input[type="text"] {
   .title {
     font-size: 1.5rem; /* Adjust font size for smaller screens */
   }
+  #portfolio-page {
+    height: 170vh;
+  }
   .intro-text {
     font-size: 0.9rem;
   }
@@ -307,6 +310,7 @@ input[type="text"] {
     width: 1fr;
   }
 }
+
 @media screen and (max-width: 650px) {
   /* .about {
     height: 70vh;
@@ -320,6 +324,7 @@ input[type="text"] {
   }
   #portfolio-page {
     height: 170vh;
+    margin-top: 2000px;
     background-color: #0f172a;
   }
   #misc {
